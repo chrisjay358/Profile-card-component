@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/chrisjay358/profile-card-component.git)
-- Live Site URL: (https://column-3card.netlify.app/)
+- Live Site URL: (component-card.netlify.app)
 
 ## My process
 
