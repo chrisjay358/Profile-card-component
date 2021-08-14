@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+  background: #19a2ae;
+  min-height: 100vh;
+  overflow: hidden; }
+
+.card {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+  z-index: 1; }
+  .card__top {
+    width: 100%;
+    z-index: -1; }
+    .card__top img {
+      display: block;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px; }
+  .card__content {
+    display: flex;
+    flex-flow: column; }
+    .card__content .card__picture {
+      align-self: center; }
+      .card__content .card__picture img {
+        display: block;
+        margin-top: -5rem;
+        width: 10rem;
+        justify-self: center;
+        border-radius: 100%;
+        border: 5px solid #fff; }
+    .card__content .card__heading {
+      text-align: center;
+      font-size: 1.5rem;
+      margin: 2rem 0 0.5rem; }
+      .card__content .card__heading--main {
+        color: #2d3248; }
+      .card__content .card__heading--sub {
+        color: #6a6f81;
+        padding-left: 5px; }
+    .card__content .card__paragraph {
+      color: #6a6f81;
+      font-size: 1.2rem;
+      text-align: center;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid #efefef; }
+    .card__content .card__stats {
+      display: flex;
+      justify-content: center;
+      gap: 5rem;
+      text-align: center;
+      padding: 2rem; }
+      .card__content .card__stats h2 {
+        text-transform: uppercase;
+        color: #2d3248;
+        font-size: 1.8rem; }
+      .card__content .card__stats p {
+        color: #6a6f81;
+        letter-spacing: 2px; }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 3rem;
+  overflow: hidden; }
+  .container::after {
+    content: "";
+    position: absolute;
+    background: url(../img/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    bottom: -50%;
+    right: -45%;
+    overflow: hidden; }
+
+.bg {
+  position: absolute;
+  top: -75%;
+  left: -25%;
+  z-index: -2; }
+  @media only screen and (max-width: 23.5em) {
+    .bg {
+      width: 375px;
+      height: 812px;
+      left: -30%;
+      top: -70%; } }

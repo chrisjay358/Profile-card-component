@@ -1,0 +1,26 @@
+$color-Dark-cyan: hsl(185, 75%, 39%);
+$color-dark-desaturated-blue: hsl(229, 23%, 23%);
+$color-Dark-grayish-blue: hsl(227, 10%, 46%);
+
+// ### Neutral
+
+$color-Dark-gray: hsl(0, 0%, 59%);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+  background: $color-Dark-cyan;
+  min-height: 100vh;
+  overflow: hidden;
+}

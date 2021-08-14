@@ -1,0 +1,11 @@
+{
+  "name": "profile-card",
+  "version": "1.0.0",
+  "description": "Challenge for Profile card component",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "chrisjay358",
+  "license": "ISC"
+}

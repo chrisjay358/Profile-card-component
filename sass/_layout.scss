@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 3rem;
+  overflow: hidden;
+
+  &::after {
+    content: "";
+    position: absolute;
+    background: url(../img/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    bottom: -50%;
+    right: -45%;
+    overflow: hidden;
+  }
+}
+
+.bg {
+  position: absolute;
+  top: -75%;
+  left: -25%;
+  z-index: -2;
+  // display: none;
+
+  @media only screen and (max-width: 23.5em) {
+    width: 375px;
+    height: 812px;
+    left: -30%;
+    top: -70%;
+  }
+}
